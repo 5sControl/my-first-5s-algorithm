@@ -1,12 +1,12 @@
 # my-first-5s-algorithm
 # Getting started 
 
-### Build your project with commits history.
+### 1. Build your project with commits history.
 
-### Run/Test code
+### 2. Run/Test code
   ```python vest.py```
 
-### Build image for my-first-5s-algorithm algorithm
+### 3. Build image for my-first-5s-algorithm algorithm
 - For x86 users
 
     ```docker build -t 5scontrol/my-first-5s-algorithm:latest .```
@@ -15,7 +15,7 @@
 
     ```docker buildx build --platform linux/amd64 -t 5scontrol/my-first-5s-algorithm:latest .```
 
-### Push images
+### 4. Push images
 
   ```docker push 5scontrol/my-first-5s-algorithm:latest```
 
