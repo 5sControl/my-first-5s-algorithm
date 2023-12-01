@@ -3,10 +3,35 @@ import uuid
 import cv2
 import os
 from dotenv import load_dotenv
+import logging
+import colorlog
+
+from HelloReport import report
+from HelloReport.ImgExtract import ImageExtractor
 from yolo_model_settings.ObjectDetectionModel import YOLOv8ObjDetectionModel
+
+
+def create_logger():
+    logger = logging.getLogger('HelloWorld_logger')
+    handler = colorlog.StreamHandler()
+    handler.setFormatter(colorlog.ColoredFormatter(
+        '%(log_color)s%(asctime)s %(levelname)s: %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S',
+        log_colors={
+            'DEBUG': 'cyan',
+            'INFO': 'green',
+            'WARNING': 'yellow',
+            'CRITICAL': 'bold_red,bg_white',
+        }))
+    logger.addHandler(handler)
+    logger.setLevel(logging.DEBUG)
+    logger.propagate = False
+    return logger
+
 
 model = YOLOv8ObjDetectionModel(model_path='model/best_final.pt', conf_thresh=0.6,
                                 iou_thresh=0.6, classes=[0, 1], img_size=640)
+logg = create_logger()
 
 if os.environ.get("server_url") is None:
     load_dotenv("config/settings.env")
