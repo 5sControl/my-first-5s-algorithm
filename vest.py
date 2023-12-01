@@ -3,6 +3,10 @@ import uuid
 import cv2
 import os
 
+from yolo_model_settings.ObjectDetectionModel import YOLOv8ObjDetectionModel
+
+model = YOLOv8ObjDetectionModel(model_path='model/best_final.pt', conf_thresh=0.6,
+                                iou_thresh=0.6, classes=[0, 1], img_size=640)
 
 myColor = 0
 while True:
