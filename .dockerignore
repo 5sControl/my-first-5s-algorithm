@@ -1,0 +1,7 @@
+.cache
+__pycache__
+.gitignore
+
+images/
+config/settings.env
+first_env/
