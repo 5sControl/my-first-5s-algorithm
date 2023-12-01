@@ -2,11 +2,19 @@ import datetime
 import uuid
 import cv2
 import os
-
+from dotenv import load_dotenv
 from yolo_model_settings.ObjectDetectionModel import YOLOv8ObjDetectionModel
 
 model = YOLOv8ObjDetectionModel(model_path='model/best_final.pt', conf_thresh=0.6,
                                 iou_thresh=0.6, classes=[0, 1], img_size=640)
+
+if os.environ.get("server_url") is None:
+    load_dotenv("config/settings.env")
+
+server_url = os.environ.get("server_url")
+camera_url = os.environ.get("camera_url")
+camera_ip = os.environ.get("camera_ip")
+folder = os.environ.get("folder")
 
 myColor = 0
 while True:
