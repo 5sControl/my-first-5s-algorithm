@@ -1,0 +1,9 @@
+__pycache__
+.cache
+.idea/
+env/
+config/settings.env
+model/
+images/
+first_env
+.DS_Store
