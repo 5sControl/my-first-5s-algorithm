@@ -46,7 +46,6 @@ while True:
     logg.debug("Detection started")
     img = ImageExtractor(camera_url).get_image()
     results = model(img[..., ::-1])
-    print(len(results))
     if len(results) == 0:
         logg.critical('No objects')
     else:
