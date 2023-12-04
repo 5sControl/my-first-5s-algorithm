@@ -59,6 +59,11 @@ With our repository as your guide, you'll gain the knowledge and skills needed t
 
 ### 5. Pulling images on the server
 
+<img width='500' alt = 'image' src="https://github.com/5sControl/my-first-5s-algorithm/assets/105813294/53fee963-1e4a-4740-94c2-17edc82720e3">
+
+
+
+
 ### 6. If all the steps are completed successfully, you will see your algorithm on the 5s platform!  
 
 - You have to download models:
