@@ -22,6 +22,13 @@ With our repository as your guide, you'll gain the knowledge and skills needed t
 # Getting started 
 
 ### 1. Build your project with commits history.
+1) Write your algorthm;
+2) Add your model and set some settings for the model. Specifically configure the parameters that we will accept from the model, for example:
+<img width="960" alt="image" src="https://github.com/5sControl/my-first-5s-algorithm/assets/105813294/42d238ce-ea78-4a13-857c-e438c3789262">
+
+3) Let's add a class in order to receive an image from the server;
+4) The most important step: how to send the report. Everything is in this format:
+   <img width="599" alt="image" src="https://github.com/5sControl/my-first-5s-algorithm/assets/105813294/d98d0063-b0cb-4be8-a313-b25cc9c1d731">
 
 ### 2. Run/Test code
   ```python vest.py```
@@ -38,6 +45,10 @@ With our repository as your guide, you'll gain the knowledge and skills needed t
 ### 4. Push images
 
   ```docker push 5scontrol/my-first-5s-algorithm:latest```
+
+### 5. Pulling images on the server
+
+### 6. If all the steps are completed successfully, you will see your algorithm on the 5s platform!  
 
 - You have to download models:
 **Models**: https://drive.google.com/drive/folders/10sprtEcwOSMJPmn-5y0xi5QwlsDswrMx?usp=sharing
