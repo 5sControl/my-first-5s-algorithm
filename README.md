@@ -19,4 +19,26 @@ With our repository as your guide, you'll gain the knowledge and skills needed t
 
 ![b7f26b31-9eec-498a-b53c-08fc8724239c](https://github.com/5sControl/my-first-5s-algorithm/assets/131950264/b70dddee-f575-4b39-bad3-f6138095ff14)
 
+# Getting started 
 
+### 1. Build your project with commits history.
+
+### 2. Run/Test code
+  ```python vest.py```
+
+### 3. Build image for my-first-5s-algorithm algorithm
+- For x86 users
+
+    ```docker build -t 5scontrol/my-first-5s-algorithm:latest .```
+
+- for AArch64 users 
+
+    ```docker buildx build --platform linux/amd64 -t 5scontrol/my-first-5s-algorithm:latest .```
+
+### 4. Push images
+
+  ```docker push 5scontrol/my-first-5s-algorithm:latest```
+
+- You have to download models:
+**Models**: https://drive.google.com/drive/folders/10sprtEcwOSMJPmn-5y0xi5QwlsDswrMx?usp=sharing
+you have to download models 
