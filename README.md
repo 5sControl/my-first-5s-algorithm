@@ -13,8 +13,7 @@ With our repository as your guide, you'll gain the knowledge and skills needed t
 
 ### Follow the step-by-step instructions, study the commits history for valuable insights, and witness your algorithm come to life.
 
-![image](https://github.com/5sControl/my-first-5s-algorithm/assets/105813294/37d260ed-0d06-4c8a-9005-cfe1af652722)
-
+![image](https://github.com/5sControl/my-first-5s-algorithm/assets/131950264/1ccf5ac5-9be7-415a-b725-3da69c39756b)
 
 
 # Getting started 
@@ -26,7 +25,7 @@ With our repository as your guide, you'll gain the knowledge and skills needed t
 > You have to download [the models](https://drive.google.com/drive/folders/10sprtEcwOSMJPmn-5y0xi5QwlsDswrMx?usp=sharing)
 <img width="500" alt="image" src="https://github.com/5sControl/my-first-5s-algorithm/assets/105813294/42d238ce-ea78-4a13-857c-e438c3789262">
 
-3) Let's add a class in order to receive an image from the server:
+3) Let's [add a class](https://github.com/5sControl/my-first-5s-algorithm/commit/ae6205f39a7fefadfc7845ee6b92e00e0d7ea4a9) in order to receive an image from the server:
 
 <img width="500" alt="image" src="https://github.com/5sControl/my-first-5s-algorithm/assets/105813294/2bcb9aa3-3dba-439c-ad7a-f9ce44dfb511">
 
@@ -67,4 +66,19 @@ Fill in the form, specifying the information about your algorithm and its docker
 
 ### 6. If all the steps are completed successfully, you will see your algorithm on the 5s platform!  
 
+# **License**
+[AGPL-3.0](LICENSE)
 
+> This algorithm uses third party libraries that are distributed under their own terms (see [LICENSE-3RD-PARTY.md](https://github.com/5sControl/my-first-5s-algorithm/blob/main/LICENSE-3RD-PARTY.md)).<br>
+
+<br>
+<div align="center">
+  <a href="https://5controls.com/" style="text-decoration:none;">
+    <img src="https://github.com/5sControl/Manufacturing-Automatization-Enterprise/blob/3bafa5805821a34e8b825df7cc78e00543fd7a58/assets/Property%201%3DVariant4.png" width="10%" alt="" /></a> 
+  <img src="https://github.com/5sControl/5s-backend/assets/131950264/d48bcf5c-8aa6-42c4-a47d-5548ae23940d" width="3%" alt="" />
+  <a href="https://github.com/5sControl" style="text-decoration:none;">
+    <img src="https://github.com/5sControl/Manufacturing-Automatization-Enterprise/blob/3bafa5805821a34e8b825df7cc78e00543fd7a58/assets/github.png" width="4%" alt="" /></a>
+  <img src="https://github.com/5sControl/5s-backend/assets/131950264/d48bcf5c-8aa6-42c4-a47d-5548ae23940d" width="3%" alt="" />
+  <a href="https://www.youtube.com/@5scontrol" style="text-decoration:none;">
+    <img src="https://github.com/5sControl/Manufacturing-Automatization-Enterprise/blob/ebf176c81fdb62d81b2555cb6228adc074f60be0/assets/youtube%20(1).png" width="5%" alt="" /></a>
+</div>
